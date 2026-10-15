@@ -13,7 +13,9 @@ The project combines market structure, liquidity analysis, order flow, statistic
 
 The objective is to build a modular, testable system that identifies meaningful market conditions and evaluates their historical performance before considering automated execution.
 
-Project status: Initial development. The architecture and capabilities below represent the planned system.
+Project status: Initial development. A validated, versioned NQ/ES five-minute
+research data pipeline is implemented; see [data environment setup](docs/data-environment.md).
+The remaining architecture and capabilities below represent the planned system.
 
 Core Capabilities
 

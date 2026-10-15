@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "feed_repository": "axb0306/cme-futures-ohlc",
+  "feed_ref": "main",
+  "mirror_repository": "bbottorff-max/cme-futures-ohlc",
+  "bar_minutes": 5,
+  "max_age_hours": 96,
+  "series_policy": "topstepx-root-series-contract-roll-unverified",
+  "older_sources": [
+    {
+      "id": "nq-databento-2023",
+      "symbol": "NQ",
+      "repository": "bbottorff-max/nq-strategy-b-bot",
+      "ref": "main",
+      "path": "data/nq_databento_5min.csv",
+      "approved": false,
+      "series_policy": "unverified-databento-continuous",
+      "reason": "Existing Data Steward quarantine; contract selection, adjustment, rights and overlap require review."
+    }
+  ]
+}

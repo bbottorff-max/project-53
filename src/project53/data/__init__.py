@@ -1,0 +1,1 @@
+"""Validated, versioned market data."""
